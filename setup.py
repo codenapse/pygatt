@@ -27,7 +27,7 @@ setup(
     description='Python GATT Module',
     author='Greg Albrecht <gba@orionlabs.co',
     author_email='gba@orionlabs.co',
-    packages=['pygatt'],
+    packages=['pygatt', 'pygatt.backends', 'pygatt.backends.bgapi', 'pygatt.backends.gatttool'],
     package_data={'': ['LICENSE', 'NOTICE']},
     license=open('LICENSE').read(),
     long_description=open('README.mkd').read(),
